@@ -25,7 +25,7 @@ sudo iptables -A INPUT -i lo -j ACCEPT
 sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 
 # Save settings
-sudo /sbin/service iptables save
+sudo /sbin/iptables-save
 
 # List rules
 sudo iptables -L -v
