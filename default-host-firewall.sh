@@ -30,4 +30,6 @@ sudo /sbin/service iptables save
 # List rules
 sudo iptables -L -v
 
+echo ''
 echo 'Firewall successfully deployed.'
+echo ''
