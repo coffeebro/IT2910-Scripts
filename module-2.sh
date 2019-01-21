@@ -1,6 +1,8 @@
 #!/bin/bash
 # A script that runs the commands necessary to finish Module 2
 
+clear
+
 echo 'COMMAND: hostname -f'
 hostname -f
 echo ''
