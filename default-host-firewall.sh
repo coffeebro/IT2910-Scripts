@@ -1,3 +1,8 @@
+# You can use this as a basic starting point for a host-based firewall
+# Run the commands below on your EC2 instance to download and execute this firewall script
+
+# wget https://raw.githubusercontent.com/coffeebro/IT2910-Scripts/master/default-host-firewall.sh && chmod +x default-host-firewall.sh && ./default-host-firewall.sh
+
 #!/bin/bash
 # iptables configuration script
 
@@ -24,3 +29,5 @@ sudo /sbin/service iptables save
 
 # List rules
 sudo iptables -L -v
+
+echo 'Firewall successfully deployed.'
