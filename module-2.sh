@@ -23,8 +23,8 @@ echo 'COMMAND: ss -atpu'
 ss -atpu
 echo ''
 
-echo 'COMMAND: sudo cat /etc/crontab | grep update'
-sudo cat /etc/crontab | grep update
+echo 'COMMAND: sudo crontab -l'
+sudo crontab -l
 echo ''
 
 echo 'COMMAND: sudo iptables -L -v'
