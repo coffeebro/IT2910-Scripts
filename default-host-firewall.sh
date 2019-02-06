@@ -1,7 +1,7 @@
 # You can use this as a basic starting point for a host-based firewall
 # Run the command directly below this line, AND ONLY THAT COMMAND, on your EC2 instance to download and execute this firewall script
 
-# wget --no-cache https://raw.githubusercontent.com/coffeebro/IT2910-Scripts/master/default-host-firewall.sh && chmod +x default-host-firewall.sh && ./default-host-firewall.sh
+# wget --no-cache https://raw.githubusercontent.com/coffeebro/IT2910-Scripts/master/default-host-firewall.sh && sudo chmod +x default-host-firewall.sh && ./default-host-firewall.sh
 
 # DO NOT MANUALLY ENTER ANY OF THE INFORMATION BELOW THIS COMMENT!
 
